@@ -42,7 +42,20 @@ git命令记录
     https://github.com/settings/ssh/new
 
 - 提交到远程
-    git remote add origin git@github.com:hbs0727/hbs0727.github.io.git
+    (不需要) git remote add origin git@github.com:hbs0727/hbs0727.github.io.git
 
 - push
     git push -u origin master
+
+- 创建仓库
+    git init
+-提交到库 上下午一次
+    git commit
+- 提交到远程 一天一次即可
+
+- 每次工作前 先到库进行克隆一次
+    在上一级目录进行
+    更新 git pull https://github.com/hbs0727/hbs0727.github.io
+- 更新后再进行工作
+    git commit -m "20171225_1213"
+
